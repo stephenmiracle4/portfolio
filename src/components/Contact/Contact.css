@@ -1,0 +1,161 @@
+.contact{
+    display: flex;
+    margin-top: 80px;
+}
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-form{
+    flex-basis: 50%;
+}
+
+.contact h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.contact p{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 10px;
+    margin: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600; 
+    border: none;
+    background: green;
+    flex-wrap: wrap;
+
+}
+
+.contact p li{
+    background: var(--dark);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    padding-top: 1px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+    border: none;
+    outline: none;
+    filter: drop-shadow(0px 0px 10px white);
+    transition: 0.5s;
+}  
+
+.contact p li a{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.contact-form h1{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.contact-form p{ 
+    margin-left: 30px;
+    font-size: 20px;
+    border: none;
+} 
+
+.contact-form input{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 10px;
+    color: black;
+    /* font-size: 15px; */
+}
+
+.contact-form{
+    width: 100%;
+    height: 3;
+}
+
+.contact-form label{
+    margin-left: 30px;
+    font-weight: 600px;
+    font-size: 20px;
+    color: #fff;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.submitbtn{
+    background-color: green;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+.submitbtn input{
+    color: white;
+}
+
+/* ==========================@MEDIA============================= */
+
+@media only screen and (max-width: 600px;) {
+      .contact {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }  
+    
+    .contact-left h1{
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        font-weight: 200;
+        font-size: 10px;
+    }
+
+    .contact p{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 5px 5px;
+        margin: 15px;
+        color: #fff;
+        font-size: 10px;
+        font-weight: 300; 
+        border: none;
+        background: green;
+        flex-wrap: wrap;
+    }  
+
+    .contact p li a{
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .contact-form p{ 
+        margin-left: 10px;
+        font-size: 10px;
+        border: none;
+    
+}
+
+}
